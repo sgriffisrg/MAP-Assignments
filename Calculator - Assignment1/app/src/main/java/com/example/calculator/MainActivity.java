@@ -94,24 +94,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         remainder_btn.setOnClickListener(this);
         back_btn.setOnClickListener(this);
     }
-    public void error(String title, String message){
+    public void error(String title, String message){ //Function so I can create custom alerts
         builder.setTitle(title);
         builder.setMessage(message);
         builder.setNegativeButton("OK",null);
 
         builder.show();
     }
-    public void add(String next){
-        calculate.push(next);
-        equationStr = equationStr + next + " ";
-        equation.setText(equationStr);
+    public void add(String next){//appends and adds the user inputs into the ArrayList in calculate and into the textview
+        if(!calculated) {
+            calculate.push(next);
+            equationStr = equationStr + next + " ";
+            equation.setText(equationStr);
+        }
+        else{
+            equationStr = equationStr + "= " + next;
+            equation.setText(equationStr);
+        }
     }
     @Override
     public void onClick(View view){
         int id = view.getId();
         if(!calculated) {
             switch (id) {
-                case R.id.buttonAdvanced:
+                case R.id.buttonAdvanced://makes the advanced options appear and disappear
                     if (stdOrAdv == 0) {
                         advanced_btn.setText(getString(R.string.standard));
                         advance.setVisibility(View.VISIBLE);
@@ -135,12 +141,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     equation.setText(equationStr);
                     break;
                 case R.id.equals:
-                    if(calculate.getSize() < 3){
+                    if(calculate.getSize() < 3){//makes sure that the user enters the minimum amount of inputs for a simple equation
                         error("Not Enough", "Please enter a full equation before pressing equals");
                     }
                     else {
                         calculated = true;
                         String result = calculate.calculate();
+                        if(result == "ERROR"){
+                            error(result, "Please follow the proper format of single digit operator single digit. E.g. 2 POW 4 + 7. Please clear to start over.");
+                            add(result);
+                        }
+                        else{
+                            add(result);
+                        }
                     }
                     break;
                 case R.id.zero:
@@ -199,7 +212,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
             }
         }
-        else{
+        else{ //The way I set up the app, is that once you hit equals it only allow the user to hit clear so they can start a new equation, every other button results into an alert
             if(id == R.id.clear){
                 calculate.clear();
                 equationStr = "";
