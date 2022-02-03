@@ -62,7 +62,7 @@ public class Calculator {
             }
             //checks if a full equation is possible
             if(!(firstDouble == "" || operator == "" || nextDouble == "")){
-                try{//if any if the parseDoubles throw an exception is will catch it and return an ERROR
+                try{//if any of the parseDoubles throw an exception this will catch it and return an ERROR
                     switch(operator){
                         case "+":
                             total = Double.parseDouble(firstDouble) + Double.parseDouble(nextDouble);
