@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cash Register</string>
+    <string name="soldOut">SOLD OUT</string>
+    <string name="buy">Purchase</string>
+    <string name="quantityBuy">0</string>
+    <string name="totalPrice">0</string>
+    <string name="managerButton">Manager</string>
+    <string name="historyButton">Transaction History</string>
+    <string name="restockButton">Restock</string>
+    <string name="hint">Please enter amount to add</string>
+    <string name="restock">Restock</string>
+    <string name="cancel">Cancel</string>
+    <string name="histList">Transaction List</string>
+</resources>
