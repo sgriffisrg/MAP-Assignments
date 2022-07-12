@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">AndroidQuiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="colour"></string>
+    <string name="hello_blank_fragment">Enter a number less than 8</string>
+    <string name="q1">Toronto is the capital of Ontario.</string>
+    <string name="q2">A chicken can fly.</string>
+    <string name="q3">Recent studies find dinosaurs likely had feathers.</string>
+    <string name="q4">Zebras are a very passive species.</string>
+    <string name="q5">Octopodes are able to squeeze through any opening smaller than their beak.</string>
+    <string name="q6">Female Octopodes will abandon their eggs after laying them.</string>
+    <string name="q7">Lions spend 20 hours resting and sleeping and only 4 hours hunting.</string>
+    <string name="q8">Crocodiles are horrible parents.</string>
+    <string name="q9">Black Panther refers to any big cat (lions, tigers, etc) that has a black pigment.</string>
+    <string name="q10">Sharks go into a frenzy mode when blood is present in the water.</string>
+    <string name="q11">A Koalas\' brain is so small they can\'t comprehend rain.</string>
+    <string name="q12">Seals and Sea Lions are not related to bears.</string>
+    <string name="q13">A Sloths\' metabolism can slow down so much, that they can starve on a full stomach.</string>
+    <string name="q14">Elephants are not smart enough to maintain familial bonds.</string>
+    <string name="q15">Panthers often avoid anteaters due to their aggressive nature and powerful claws.</string>
+    <string name="q16">A cheetahs top speed is the fastest an animal can go.</string>
+    <string name="q17">Orcas are apex predators and have no competition.</string>
+    <string name="q18">Wolves are not pack animals.</string>
+    <string name="q19">Hammerhead sharks are able to see all around them; a full 360 degrees.</string>
+    <string name="q20">Flamingos are born pink.</string>
+    <string name="t">True</string>
+    <string name="f">false</string>
+    <string name="averageTitle">Total Score</string>
+    <string name="averageMessageP1">Correct Answers/Total Questions Answered</string>
+    <string name="averageMessageP2">Your total score is </string>
+    <string name="averageMessageP3"> .</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="changeQuestions">Change Total Questions</string>
+    <string name="deleteTitle">Delete All Scores</string>
+    <string name="cancel">Cancel</string>
+    <string name="saveNewQuestion">Save</string>
+    <string name="SavedChangeMessage">The new total amount questions is  </string>
+    <string name="SavedChangeMessage1">.</string>
+    <string name="CancelChangeMessage">Nothing was changed</string>
+    <string name="FinishedAlertTitle">Results</string>
+    <string name="FinishedAlertMessage">Your result is: </string>
+    <string name="Ignore">Ignore</string>
+    <string name="Saved">Your score has been saved</string>
+    <string name="deleteMessage">Are you sure you wanna delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deleteFinished">Items Deleted</string>
+
+</resources>

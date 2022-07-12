@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AndroidQuiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">8보다 작은 숫자를 입력하십시오.</string>
+    <string name="colour"></string>
+    <string name="q1">토론토는 온타리오의 수도입니다.</string>
+    <string name="q2">닭은 날 수 있다.</string>
+    <string name="q3">최근의 연구는 공룡이 깃털을 가졌을 가능성이 있다는 것을 발견한다.</string>
+    <string name="q4">얼룩말은 매우 수동적인 종이다.</string>
+    <string name="q5">문어는 부리보다 작은 구멍으로 비집고 들어갈 수 있다.</string>
+    <string name="q6">암컷 문어는 알을 낳은 후에 알을 버립니다.</string>
+    <string name="q7">사자는 20시간을 쉬고 자고 4시간만 사냥합니다.</string>
+    <string name="q8">악어는 끔찍한 부모다.</string>
+    <string name="q9">블랙 팬더는 검은 색소를 가진 큰 고양이(라이언, 호랑이 등)를 말한다.</string>
+    <string name="q10">상어는 물 속에 피가 있을 때 광란 상태에 빠진다.</string>
+    <string name="q11">코알라의 뇌는 너무 작아서 비를 이해할 수 없다.</string>
+    <string name="q12">바다표범과 바다사자는 곰과 관련이 없습니다.</string>
+    <string name="q13">나무늘보는 신진대사가 너무 느려 배부른 상태에서 굶을 수 있다.</string>
+    <string name="q14">코끼리는 가족의 유대를 유지할 만큼 똑똑하지 않다.</string>
+    <string name="q15">표범들은 공격적인 성격과 강력한 발톱 때문에 개미핥기를 피한다.</string>
+    <string name="q16">치타는 동물이 갈 수 있는 가장 빠른 속도이다.</string>
+    <string name="q17">범고래는 최고의 포식자이며 경쟁 상대가 없다.</string>
+    <string name="q18">늑대는 무리지어 사는 동물이 아니다.</string>
+    <string name="q19">귀상어는 360도 전체를 볼 수 있다.</string>
+    <string name="q20">홍학은 분홍색으로 태어난다.</string>
+    <string name="t">네</string>
+    <string name="f">아니요</string>
+    <string name="averageTitle">총점</string>
+    <string name="averageMessageP1">정답/총질문</string>
+    <string name="averageMessageP2">너 총점 </string>
+    <string name="averageMessageP3"> 있어요.</string>
+    <string name="correct">맞아요</string>
+    <string name="incorrect">틀렸어</string>
+    <string name="changeQuestions">총질문을 바꾸다</string>
+    <string name="deleteTitle">모든 점수 삭제</string>
+    <string name="cancel">취소</string>
+    <string name="saveNewQuestion">절약</string>
+    <string name="SavedChangeMessage">새로운 총액 문제는 </string>
+    <string name="SavedChangeMessage1"> 문제입니다.</string>
+    <string name="CancelChangeMessage">아무것도 변하지 않았다</string>
+    <string name="FinishedAlertTitle">결과</string>
+    <string name="FinishedAlertMessage">너 결과: </string>
+    <string name="Ignore">무시</string>
+    <string name="Saved">점수가 저장되었습니다.</string>
+    <string name="deleteMessage">정말 삭제하시겠습니까?</string>
+    <string name="yes">네</string>
+    <string name="no">아니요</string>
+    <string name="deleteFinished">삭제된 항목</string>
+
+
+</resources>
